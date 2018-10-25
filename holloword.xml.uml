@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>BPMN_2_0</ID>
+  <OriginalElement>flowPath=F:/源码/jjy/src/main/resources/diagrams/holloword.xml</OriginalElement>
+  <nodes>
+    <node x="10.0" y="170.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @1509</node>
+    <node x="22.0" y="85.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @1504</node>
+    <node x="19.5" y="340.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @1519</node>
+    <node x="16.0" y="255.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @1514</node>
+    <node x="17.0" y="0.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @1501</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @1501" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @1504">
+      <point x="0.0" y="15.5" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @1514" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @1519">
+      <point x="0.0" y="15.5" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @1509" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @1514">
+      <point x="0.0" y="15.5" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+    <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @1504" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @1509">
+      <point x="0.0" y="15.5" />
+      <point x="0.0" y="-15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="63.0" y="185.5" />
+  <SelectedNodes>
+    <node>interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @1509</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Details</Category>
+  </Categories>
+</Diagram>
+

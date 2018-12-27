@@ -8,6 +8,7 @@ public class User {
     private String email;
     private String salt;
 
+
     public String getSalt() {
         return salt;
     }

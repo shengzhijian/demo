@@ -205,7 +205,21 @@
             <artifactId>freemarker</artifactId>
             <version>2.3.28</version>
         </dependency>
-
+        <dependency>
+            <groupId>cn.com.enersun</groupId>
+            <artifactId>nx-commons-ui</artifactId>
+            <version>5.2.8-RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>4.3.11.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>7.0</version>
+        </dependency>
 
 
     </dependencies>

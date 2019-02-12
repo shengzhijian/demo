@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="demo1.css" type="text/css">
+</head>
+<body>
+    <div class="out">
+        <div class="main">
+            <div class="center1"></div>
+            <div class="center2"></div>
+            <div class="center3"></div>
+            <div class="center4"></div>
+            <div class="center5"></div>
+        </div>
+    </div>
+    <script type="text/javascript">
+         var a=parseInt(window.prompt('输入数值'));
+        // var b=2;
+        // for(var i=1;i<a;i++){
+        //     b*=2
+        // }
+        // document.write(b);
+        // for(var i=a-1;i>0;i--){
+        //     a*=i
+        // }
+        // document.write(a);
+        var b=1;
+        var c=1;
+        var sum=0;
+        if(a==1||a==2){
+            sum=1;
+        }else{
+            for(var i=2;i<a;i++){
+                sum=b+c;
+                b=c;
+                c=sum
+            }
+        }
+
+        document.write(sum)
+    </script>
+
+
+</body>
+</html>
